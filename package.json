@@ -1,7 +1,7 @@
 {
   "name": "lodash-snippets",
   "main": "./lib/lodash-snippets",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Lo-Dash snippets for AtomEditor",
   "activationEvents": [
     "lodash-snippets:toggle"
