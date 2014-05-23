@@ -3,6 +3,7 @@
   "main": "./lib/lodash-snippets",
   "version": "1.0.0",
   "description": "Lo-Dash snippets for AtomEditor",
+  "activationEvents": ["lodash-snippets:toggle"],
   "repository": "https://github.com/richtmat/lodash-snippets",
   "license": "MIT",
   "engines": {
