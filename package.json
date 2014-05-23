@@ -1,13 +1,12 @@
 {
   "name": "lodash-snippets",
   "main": "./lib/lodash-snippets",
-  "version": "0.1.0",
-  "description": "Lo-Dash snippets for AtomEditor",  
+  "version": "1.0.0",
+  "description": "Lo-Dash snippets for AtomEditor",
   "repository": "https://github.com/richtmat/lodash-snippets",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
