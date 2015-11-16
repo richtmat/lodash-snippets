@@ -1,15 +1,19 @@
 # Lo-Dash.js Snippets for Atom Editor
+Some snippets to quickly use Lo-Dash Library in Atom.
 
-Some snippets to quickly use Lo-Dash Library in AtomEditor.
+The Arrays, Collections, Functions, Objects, and Utilities parts of the library are implemented currently. I would love to extend the snippets to the complete [Lo-Dash functionality](https://lodash.com/docs).
 
-Only the Array and collections part of the library are implemented as these are
-the parts I use the most. I would love to extend the snippets to the complete
-lodash functionality.
+Inspired by the [atom-undescorejs](https://github.com/tianpermana/atom-underscorejs) package by Tian Permana.
 
-Install:
+## Install
 ```bash
 apm install lodash-snippets
 ```
+
+Or Settings ➔ Install ➔ Search for `lodash`
+
+## Contributing
 Feel free to contribute with issues or PRs!
 
-Inspired by the [atom-undescorejs](https://github.com/tianpermana/atom-underscorejs) package by Tian Permana.
+## License
+[MIT](LICENSE.md) © [Matthias Richter](https://github.com/richtmat)
