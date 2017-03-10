@@ -1,3 +1,6 @@
+# 2.0.0 - Update to LoDash 4.16.4
+* Upgrade to all latest LoDash functions
+
 ### 1.1.2 - Package Clean-up
 * Removal of View file
 * Upgraded to use Atom activationCommands instead of activationEvents

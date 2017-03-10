@@ -1,0 +1,153 @@
+'.source.js, .source.ts':
+  '_.countBy':
+    'prefix': '_count'
+    'body': '_.countBy(${1:collection}, ${2:iteratee})'
+  '_.every':
+    'prefix': '_ev'
+    'body': '_.every(${1:collection}, ${2:predicate})'
+  '_.filter':
+    'prefix': '_fil'
+    'body': '_.filter(${1:collection}, ${2:predicate})'
+  '_.find':
+    'prefix': '_find'
+    'body': '_.find(${1:collection}, ${2:predicate})'
+  '_.findLast':
+    'prefix': '_findl'
+    'body': '_.findLast(${1:collection}, ${2:predicate})'
+  '_.flatMap':
+    'prefix': '_flatm'
+    'body': '_.flatMap(${1:collection}, ${2:iteratee})'
+  '_.flatMapDeep':
+    'prefix': '_flatmd'
+    'body': '_.flatMapDeep(${1:collection}, ${2:iteratee})'
+  '_.flatMapDepth':
+    'prefix': '_flatmdep'
+    'body': '_.flatMapDepth(${1:collection}, ${2:iteratee})'
+  '_.forEach':
+    'prefix': '_fe'
+    'body': '_.forEach(${1:collection}, ${2:iteratee})'
+  '_.forEachRight':
+    'prefix': '_fer'
+    'body': '_.forEachRight(${1:collection}, ${2:iteratee})'
+  '_.groupBy':
+    'prefix': '_group'
+    'body': '_.groupBy(${1:collection}, ${2:iteratee})'
+  '_.includes':
+    'prefix': '_inc'
+    'body': '_includes(${1:collection}, ${2:target})'
+  '_.invokeMap':
+    'prefix': '_invm'
+    'body': '_.invokeMap(${1:collection}, ${2:path})'
+  '_.map':
+    'prefix': '_map'
+    'body': '_.map(${1:collection}, ${2:iteratee})'
+  '_.orderBy':
+    'prefix': '_ordb'
+    'body': '_.orderBy(${1:collection}, ${2:iteratee})'
+  '_.partition':
+    'prefix': '_part'
+    'body': '_.partition(${1:collection}, ${2:predicate})'
+  '_.reduce':
+    'prefix': '_red'
+    'body': '_.reduce(${1:collection}, ${2:iteratee})'
+  '_.reduceRight':
+    'prefix': '_redr'
+    'body': '_.reduceRight(${1:collection}, ${2:iteratee})'
+  '_.reject':
+    'prefix': '_rej'
+    'body': '_.reject(${1:collection}, ${2:predicate})'
+  '_.sample':
+    'prefix': '_sam'
+    'body': '_.sample(${1:collection})'
+  '_.sampleSize':
+    'prefix': '_samsi'
+    'body': '_.sampleSize(${1:collection})'
+  '_.shuffle':
+    'prefix': '_shuf'
+    'body': '_.shuffle(${1:collection})'
+  '_.size':
+    'prefix': '_size'
+    'body': '_.size(${1:collection})'
+  '_.some':
+    'prefix': '_some'
+    'body': '_.some(${1:collection}, ${2:predicate})'
+  '_.sortBy':
+    'prefix': '_sort'
+    'body': '_.sortBy(${1:collection}, ${2:iteratee})'
+
+'.source.coffee':
+  '_.countBy':
+    'prefix': '_count'
+    'body': '_.countBy ${1:collection}, ${2:iteratee}'
+  '_.every':
+    'prefix': '_ev'
+    'body': '_.every ${1:collection}, ${2:predicate}'
+  '_.filter':
+    'prefix': '_fil'
+    'body': '_.filter ${1:collection}, ${2:predicate}'
+  '_.find':
+    'prefix': '_find'
+    'body': '_.find ${1:collection}, ${2:predicate}'
+  '_.findLast':
+    'prefix': '_findl'
+    'body': '_.findLast ${1:collection}, ${2:predicate}'
+  '_.flatMap':
+    'prefix': '_flatm'
+    'body': '_.flatMap ${1:collection}, ${2:iteratee}'
+  '_.flatMapDeep':
+    'prefix': '_flatmd'
+    'body': '_.flatMapDeep ${1:collection}, ${2:iteratee}'
+  '_.flatMapDepth':
+    'prefix': '_flatmdep'
+    'body': '_.flatMapDepth ${1:collection}, ${2:iteratee}'
+  '_.forEach':
+    'prefix': '_fe'
+    'body': '_.forEach ${1:collection}, ${2:iteratee}'
+  '_.forEachRight':
+    'prefix': '_fer'
+    'body': '_.forEachRight ${1:collection}, ${2:iteratee}'
+  '_.groupBy':
+    'prefix': '_group'
+    'body': '_.groupBy ${1:collection}, ${2:iteratee}'
+  '_.includes':
+    'prefix': '_inc'
+    'body': '_includes ${1:collection}, ${2:target}'
+  '_.invokeMap':
+    'prefix': '_invm'
+    'body': '_.invokeMap ${1:collection}, ${2:path}'
+  '_.map':
+    'prefix': '_map'
+    'body': '_.map ${1:collection}, ${2:iteratee}'
+  '_.orderBy':
+    'prefix': '_ordb'
+    'body': '_.orderBy ${1:collection}, ${2:iteratee}'
+  '_.partition':
+    'prefix': '_part'
+    'body': '_.partition ${1:collection}, ${2:predicate}'
+  '_.reduce':
+    'prefix': '_red'
+    'body': '_.reduce ${1:collection}, ${2:iteratee}'
+  '_.reduceRight':
+    'prefix': '_redr'
+    'body': '_.reduceRight ${1:collection}, ${2:iteratee}'
+  '_.reject':
+    'prefix': '_rej'
+    'body': '_.reject ${1:collection}, ${2:predicate}'
+  '_.sample':
+    'prefix': '_sam'
+    'body': '_.sample ${1:collection}'
+  '_.sampleSize':
+    'prefix': '_samsi'
+    'body': '_.sampleSize ${1:collection}'
+  '_.shuffle':
+    'prefix': '_shuf'
+    'body': '_.shuffle ${1:collection}'
+  '_.size':
+    'prefix': '_size'
+    'body': '_.size ${1:collection}'
+  '_.some':
+    'prefix': '_some'
+    'body': '_.some ${1:collection}, ${2:predicate}'
+  '_.sortBy':
+    'prefix': '_sort'
+    'body': '_.sortBy ${1:collection}, ${2:iteratee}'

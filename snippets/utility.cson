@@ -1,0 +1,201 @@
+'.source.js, .source.ts':
+  '_.attempt':
+    'prefix': '_atmpt'
+    'body': '_.attempt(${1:func}, ${2:args})'
+  '_.bindAll':
+    'prefix': '_binda'
+    'body': '_.bindAll(${1:object}, ${2:methodNames})'
+  '_.cond':
+    'prefix': '_cond'
+    'body': '_.cond(${1:pairs})'
+  '_.constant':
+    'prefix': '_cons'
+    'body': '_.constant(${1:value})'
+  '_.defaultTo':
+    'prefix': '_defto'
+    'body': '_.defaultTo(${1:value}, ${2:defaultValue})'
+  '_.flow':
+    'prefix': '_flow'
+    'body': '_.flow(${1:funcs})'
+  '_.flowRight':
+    'prefix': '_flowr'
+    'body': '_.flowRight(${1:funcs})'
+  '_.identity':
+    'prefix': '_id'
+    'body': '_.identity(${1:value})'
+  '_.iteratee':
+    'prefix': '_iter'
+    'body': '_.iteratee(${1:func})'
+  '_.matches':
+    'prefix': '_match'
+    'body': '_.matches(${1:sources})'
+  '_.matchesProperty':
+    'prefix': '_matchp'
+    'body': '_.matchesProperty(${1:path}, ${2:srcValue})'
+  '_.method':
+    'prefix': '_meth'
+    'body': '_.method(${1:path}, ${2:args})'
+  '_.methodOf':
+    'prefix': '_methof'
+    'body': '_.methodOf(${1:object}, ${2:args})'
+  '_.mixin':
+    'prefix': '_mix'
+    'body': '_.mixin(${1:object})'
+  '_.noConflict':
+    'prefix': '_nocon'
+    'body': '_.noConflict()'
+  '_.noop':
+    'prefix': '_noop'
+    'body': '_.noop()'
+  '_.nthArg':
+    'prefix': '_ntharg'
+    'body': '_.nthArg(${1:n})'
+  '_.over':
+    'prefix': '_over'
+    'body': '_.over(${1:iteratees})'
+  '_.overEvery':
+    'prefix': '_overe'
+    'body': '_.overEvery(${1:predicates})'
+  '_.overSome':
+    'prefix': '_overs'
+    'body': '_.overSome(${1:predicates})'
+  '_.property':
+    'prefix': '_prop'
+    'body': '_.property(${1:path})'
+  '_.propertyOf':
+    'prefix': '_propof'
+    'body': '_.propertyOf(${1:path})'
+  '_.range':
+    'prefix': '_rnge'
+    'body': '_.range(${1:start}, ${2:end})'
+  '_.rangeRight':
+    'prefix': '_rnger'
+    'body': '_.rangeRight(${1:start}, ${2:end})'
+  '_.runInContext':
+    'prefix': '_runInContext'
+    'body': '_.runInContext(${1:object})'
+  '_.stubArray':
+    'prefix': '_stbarr'
+    'body': '_.stubArray()'
+  '_.stubFalse':
+    'prefix': '_stbfal'
+    'body': '_.stubFalse()'
+  '_.stubObject':
+    'prefix': '_stbobj'
+    'body': '_.stubObject()'
+  '_.stubString':
+    'prefix': '_stbstr'
+    'body': '_.stubString()'
+  '_.stubTrue':
+    'prefix': '_stbtru'
+    'body': '_.stubTrue()'
+  '_.times':
+    'prefix': '_times'
+    'body': '_.times(${1:n}, ${2:iteratee})'
+  '_.toPath':
+    'prefix': '_topath'
+    'body': '_.toPath(${1:value})'
+  '_.uniqueId':
+    'prefix': '_unid'
+    'body': '_.uniqueId(${1:prefix})'
+
+'.source.coffee':
+  '_.attempt':
+    'prefix': '_atmpt'
+    'body': '_.attempt ${1:func}, ${2:args}'
+  '_.bindAll':
+    'prefix': '_binda'
+    'body': '_.bindAll ${1:object}, ${2:methodNames}'
+  '_.cond':
+    'prefix': '_cond'
+    'body': '_.cond ${1:pairs}'
+  '_.constant':
+    'prefix': '_cons'
+    'body': '_.constant ${1:value}'
+  '_.defaultTo':
+    'prefix': '_defto'
+    'body': '_.defaultTo ${1:value}, ${2:defaultValue}'
+  '_.flow':
+    'prefix': '_flow'
+    'body': '_.flow ${1:funcs}'
+  '_.flowRight':
+    'prefix': '_flowr'
+    'body': '_.flowRight ${1:funcs}'
+  '_.identity':
+    'prefix': '_id'
+    'body': '_.identity ${1:value}'
+  '_.iteratee':
+    'prefix': '_iter'
+    'body': '_.iteratee ${1:func}'
+  '_.matches':
+    'prefix': '_match'
+    'body': '_.matches ${1:sources}'
+  '_.matchesProperty':
+    'prefix': '_matchp'
+    'body': '_.matchesProperty ${1:path}, ${2:srcValue}'
+  '_.method':
+    'prefix': '_meth'
+    'body': '_.method ${1:path}, ${2:args}'
+  '_.methodOf':
+    'prefix': '_methof'
+    'body': '_.methodOf ${1:object}, ${2:args}'
+  '_.mixin':
+    'prefix': '_mix'
+    'body': '_.mixin ${1:object}'
+  '_.noConflict':
+    'prefix': '_nocon'
+    'body': '_.noConflict '
+  '_.noop':
+    'prefix': '_noop'
+    'body': '_.noop '
+  '_.nthArg':
+    'prefix': '_ntharg'
+    'body': '_.nthArg ${1:n}'
+  '_.over':
+    'prefix': '_over'
+    'body': '_.over ${1:iteratees}'
+  '_.overEvery':
+    'prefix': '_overe'
+    'body': '_.overEvery ${1:predicates}'
+  '_.overSome':
+    'prefix': '_overs'
+    'body': '_.overSome ${1:predicates}'
+  '_.property':
+    'prefix': '_prop'
+    'body': '_.property ${1:path}'
+  '_.propertyOf':
+    'prefix': '_propof'
+    'body': '_.propertyOf ${1:path}'
+  '_.range':
+    'prefix': '_rnge'
+    'body': '_.range ${1:start}, ${2:end}'
+  '_.rangeRight':
+    'prefix': '_rnger'
+    'body': '_.rangeRight ${1:start}, ${2:end}'
+  '_.runInContext':
+    'prefix': '_runInContext'
+    'body': '_.runInContext ${1:object}'
+  '_.stubArray':
+    'prefix': '_stbarr'
+    'body': '_.stubArray '
+  '_.stubFalse':
+    'prefix': '_stbfal'
+    'body': '_.stubFalse '
+  '_.stubObject':
+    'prefix': '_stbobj'
+    'body': '_.stubObject '
+  '_.stubString':
+    'prefix': '_stbstr'
+    'body': '_.stubString '
+  '_.stubTrue':
+    'prefix': '_stbtru'
+    'body': '_.stubTrue '
+  '_.times':
+    'prefix': '_times'
+    'body': '_.times ${1:n}, ${2:iteratee}'
+  '_.toPath':
+    'prefix': '_topath'
+    'body': '_.toPath ${1:value}'
+  '_.uniqueId':
+    'prefix': '_unid'
+    'body': '_.uniqueId ${1:prefix}'

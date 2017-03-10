@@ -1,0 +1,183 @@
+'.source.js, .source.ts':
+  '_.camelCase':
+    'prefix': '_cam'
+    'body': '_.camelCase(${1:string})'
+  '_.capitalize':
+    'prefix': '_cap'
+    'body': '_.capitalize(${1:string})'
+  '_.deburr':
+    'prefix': '_debr'
+    'body': '_.deburr(${1:string})'
+  '_.endsWith':
+    'prefix': '_endw'
+    'body': '_.endsWith(${1:string}, ${2:target})'
+  '_.escape':
+    'prefix': '_esc'
+    'body': '_.escape(${1:string})'
+  '_.escapeRegExp':
+    'prefix': '_escregex'
+    'body': '_.escapeRegExp(${1:string})'
+  '_.kebabCase':
+    'prefix': '_keb'
+    'body': '_.kebabCase(${1:string})'
+  '_.lowerCase':
+    'prefix': '_low'
+    'body': '_.lowerCase(${1:string})'
+  '_.lowerFirst':
+    'prefix': '_lowf'
+    'body': '_.lowerFirst(${1:string})'
+  '_.pad':
+    'prefix': '_pad'
+    'body': '_.pad(${1:string}, ${2:length})'
+  '_.padEnd':
+    'prefix': '_pade'
+    'body': '_.padEnd(${1:string}, ${2:length})'
+  '_.padStart':
+    'prefix': '_pads'
+    'body': '_.padStart(${1:string}, ${2:length})'
+  '_.parseInt':
+    'prefix': '_pint'
+    'body': '_.parseInt(${1:string})'
+  '_.repeat':
+    'prefix': '_repe'
+    'body': '_.repeat(${1:string}, ${2:n})'
+  '_.replace':
+    'prefix': '_repl'
+    'body': '_.replace(${1:string}, ${2:pattern}, ${3:replacement})'
+  '_.snakeCase':
+    'prefix': '_snake'
+    'body': '_.snakeCase(${1:string})'
+  '_.split':
+    'prefix': '_spl'
+    'body': '_.split(${1:string}, ${2:separator}, ${3:limit})'
+  '_.startCase':
+    'prefix': '_start'
+    'body': '_.startCase(${1:string}, ${2:separator}, ${3:limit})'
+  '_.startsWith':
+    'prefix': '_startw'
+    'body': '_.startsWith(${1:string}, ${2:target})'
+  '_.template':
+    'prefix': '_tmpl'
+    'body': '_.template(${1:string}, ${2:options})'
+  '_.toLower':
+    'prefix': '_tolow'
+    'body': '_.toLower(${1:string})'
+  '_.toUpper':
+    'prefix': '_toup'
+    'body': '_.toUpper(${1:string})'
+  '_.trim':
+    'prefix': '_trim'
+    'body': '_.trim(${1:string}, ${2:chars})'
+  '_.trimEnd':
+    'prefix': '_trime'
+    'body': '_.trimEnd(${1:string}, ${2:chars})'
+  '_.trimStart':
+    'prefix': '_trims'
+    'body': '_.trimStart(${1:string}, ${2:chars})'
+  '_.truncate':
+    'prefix': '_trunc'
+    'body': '_.truncate(${1:string}, ${2:options})'
+  '_.unescape':
+    'prefix': '_unesc'
+    'body': '_.unescape(${1:string})'
+  '_.upperCase':
+    'prefix': '_upper'
+    'body': '_.upperCase(${1:string})'
+  '_.upperFirst':
+    'prefix': '_upperf'
+    'body': '_.upperFirst(${1:string})'
+  '_.words':
+    'prefix': '_words'
+    'body': '_.words(${1:string}, ${2:pattern})'
+
+'.source.coffee':
+  '_.camelCase':
+    'prefix': '_cam'
+    'body': '_.camelCase ${1:string}'
+  '_.capitalize':
+    'prefix': '_cap'
+    'body': '_.capitalize ${1:string}'
+  '_.deburr':
+    'prefix': '_debr'
+    'body': '_.deburr ${1:string}'
+  '_.endsWith':
+    'prefix': '_endw'
+    'body': '_.endsWith ${1:string}, ${2:target}'
+  '_.escape':
+    'prefix': '_esc'
+    'body': '_.escape ${1:string}'
+  '_.escapeRegExp':
+    'prefix': '_escregex'
+    'body': '_.escapeRegExp ${1:string}'
+  '_.kebabCase':
+    'prefix': '_keb'
+    'body': '_.kebabCase ${1:string}'
+  '_.lowerCase':
+    'prefix': '_low'
+    'body': '_.lowerCase ${1:string}'
+  '_.lowerFirst':
+    'prefix': '_lowf'
+    'body': '_.lowerFirst ${1:string}'
+  '_.pad':
+    'prefix': '_pad'
+    'body': '_.pad ${1:string}, ${2:length}'
+  '_.padEnd':
+    'prefix': '_pade'
+    'body': '_.padEnd ${1:string}, ${2:length}'
+  '_.padStart':
+    'prefix': '_pads'
+    'body': '_.padStart ${1:string}, ${2:length}'
+  '_.parseInt':
+    'prefix': '_pint'
+    'body': '_.parseInt ${1:string}'
+  '_.repeat':
+    'prefix': '_repe'
+    'body': '_.repeat ${1:string}, ${2:n}'
+  '_.replace':
+    'prefix': '_repl'
+    'body': '_.replace ${1:string}, ${2:pattern}, ${3:replacement}'
+  '_.snakeCase':
+    'prefix': '_snake'
+    'body': '_.snakeCase ${1:string}'
+  '_.split':
+    'prefix': '_spl'
+    'body': '_.split ${1:string}, ${2:separator}, ${3:limit}'
+  '_.startCase':
+    'prefix': '_start'
+    'body': '_.startCase ${1:string}, ${2:separator}, ${3:limit}'
+  '_.startsWith':
+    'prefix': '_startw'
+    'body': '_.startsWith ${1:string}, ${2:target}'
+  '_.template':
+    'prefix': '_tmpl'
+    'body': '_.template ${1:string}, ${2:options}'
+  '_.toLower':
+    'prefix': '_tolow'
+    'body': '_.toLower ${1:string}'
+  '_.toUpper':
+    'prefix': '_toup'
+    'body': '_.toUpper ${1:string}'
+  '_.trim':
+    'prefix': '_trim'
+    'body': '_.trim ${1:string}, ${2:chars}'
+  '_.trimEnd':
+    'prefix': '_trime'
+    'body': '_.trimEnd ${1:string}, ${2:chars}'
+  '_.trimStart':
+    'prefix': '_trims'
+    'body': '_.trimStart ${1:string}, ${2:chars}'
+  '_.truncate':
+    'prefix': '_trunc'
+    'body': '_.truncate ${1:string}, ${2:options}'
+  '_.unescape':
+    'prefix': '_unesc'
+    'body': '_.unescape ${1:string}'
+  '_.upperCase':
+    'prefix': '_upper'
+    'body': '_.upperCase ${1:string}'
+  '_.upperFirst':
+    'prefix': '_upperf'
+    'body': '_.upperFirst ${1:string}'
+  '_.words':
+    'prefix': '_words'
+    'body': '_.words ${1:string}, ${2:pattern}'

@@ -1,0 +1,21 @@
+'.source.js, .source.ts':
+  '_.clamp':
+    'prefix': '_clamp'
+    'body': '_.clamp(${1:number}, ${2:lower}, ${3:upper})'
+  '_.inRange':
+    'prefix': '_ir'
+    'body': '_.inRange(${1:n}, ${2:end})'
+  '_.random':
+    'prefix': '_rand'
+    'body': '_.random(${1:min, max, floating})'
+
+'.source.coffee':
+  '_.clamp':
+    'prefix': '_clamp'
+    'body': '_.clamp ${1:number}, ${2:lower}, ${3:upper}'
+  '_.inRange':
+    'prefix': '_ir'
+    'body': '_.inRange ${1:n}, ${2:end}'
+  '_.random':
+    'prefix': '_rand'
+    'body': '_.random ${1:min, max, floating}'

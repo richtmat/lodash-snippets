@@ -1,0 +1,93 @@
+'.source.js, .source.ts':
+  '_.add':
+    'prefix': '_add'
+    'body': '_.add(${1:augend}, ${2:addend})'
+  '_.ceil':
+    'prefix': '_ceil'
+    'body': '_.ceil(${1:number})'
+  '_.divide':
+    'prefix': '_div'
+    'body': '_.divide(${1:dividend}, ${2:divisor})'
+  '_.floor':
+    'prefix': '_flr'
+    'body': '_.floor(${1:number})'
+  '_.max':
+    'prefix': '_max'
+    'body': '_.max(${1:array})'
+  '_.maxBy':
+    'prefix': '_maxb'
+    'body': '_.maxBy(${1:array}, ${2:iteratee})'
+  '_.mean':
+    'prefix': '_mean'
+    'body': '_.mean(${1:array})'
+  '_.meanBy':
+    'prefix': '_meanb'
+    'body': '_.meanBy(${1:array}, ${2:iteratee})'
+  '_.min':
+    'prefix': '_min'
+    'body': '_.min(${1:array})'
+  '_.minBy':
+    'prefix': '_minb'
+    'body': '_.minBy(${1:array}, ${2:iteratee})'
+  '_.multiply':
+    'prefix': '_mult'
+    'body': '_.multiply(${1:multiplier}, ${2:multiplicand})'
+  '_.round':
+    'prefix': '_round'
+    'body': '_.round(${1:number}, ${2:precision})'
+  '_.subtract':
+    'prefix': '_sub'
+    'body': '_.subtract(${1:minuend}, ${2:subtrahend})'
+  '_.sum':
+    'prefix': '_sum'
+    'body': '_.sum(${1:array})'
+  '_.sumBy':
+    'prefix': '_sumb'
+    'body': '_.sumBy(${1:array}, ${2:iteratee})'
+
+'.source.coffee':
+  '_.add':
+    'prefix': '_add'
+    'body': '_.add ${1:augend}, ${2:addend}'
+  '_.ceil':
+    'prefix': '_ceil'
+    'body': '_.ceil ${1:number}'
+  '_.divide':
+    'prefix': '_div'
+    'body': '_.divide ${1:dividend}, ${2:divisor}'
+  '_.floor':
+    'prefix': '_flr'
+    'body': '_.floor ${1:number}'
+  '_.max':
+    'prefix': '_max'
+    'body': '_.max ${1:array}'
+  '_.maxBy':
+    'prefix': '_maxb'
+    'body': '_.maxBy ${1:array}, ${2:iteratee}'
+  '_.mean':
+    'prefix': '_mean'
+    'body': '_.mean ${1:array}'
+  '_.meanBy':
+    'prefix': '_meanb'
+    'body': '_.meanBy ${1:array}, ${2:iteratee}'
+  '_.min':
+    'prefix': '_min'
+    'body': '_.min ${1:array}'
+  '_.minBy':
+    'prefix': '_minb'
+    'body': '_.minBy ${1:array}, ${2:iteratee}'
+  '_.multiply':
+    'prefix': '_mult'
+    'body': '_.multiply ${1:multiplier}, ${2:multiplicand}'
+  '_.round':
+    'prefix': '_round'
+    'body': '_.round ${1:number}, ${2:precision}'
+  '_.subtract':
+    'prefix': '_sub'
+    'body': '_.subtract ${1:minuend}, ${2:subtrahend}'
+  '_.sum':
+    'prefix': '_sum'
+    'body': '_.sum ${1:array}'
+  '_.sumBy':
+    'prefix': '_sumb'
+    'body': '_.sumBy ${1:array}, ${2:iteratee}'

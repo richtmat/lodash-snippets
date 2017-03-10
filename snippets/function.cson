@@ -1,0 +1,141 @@
+'.source.js, .source.ts':
+  '_.after':
+    'prefix': '_after'
+    'body': '_.after(${1:n}, ${2:func})'
+  '_.ary':
+    'prefix': '_ary'
+    'body': '_.ary(${1:func}, ${2:n})'
+  '_.before':
+    'prefix': '_before'
+    'body': '_.before(${1:n}, ${2:func})'
+  '_.bind':
+    'prefix': '_b'
+    'body': '_.bind(${1:func}, ${2:thisArg})'
+  '_.bindKey':
+    'prefix': '_bk'
+    'body': '_.bindKey(${1:object}, ${2:key}, ${3:partials})'
+  '_.curry':
+    'prefix': '_cur'
+    'body': '_.curry(${1:func})'
+  '_.curryRight':
+    'prefix': '_curr'
+    'body': '_.curryRight(${1:func})'
+  '_.debounce':
+    'prefix': '_deb'
+    'body': '_.debounce(${1:func}, ${2:wait})'
+  '_.defer':
+    'prefix': '_defer'
+    'body': '_.defer(${1:func}, ${2:args})'
+  '_.delay':
+    'prefix': '_delay'
+    'body': '_.delay(${1:func}, ${2:wait}, ${3:args})'
+  '_.flip':
+    'prefix': '_flip'
+    'body': '_.flip(${1:func})'
+  '_.memoize':
+    'prefix': '_memo'
+    'body': '_.memoize(${1:func})'
+  '_.negate':
+    'prefix': '_neg'
+    'body': '_.negate(${1:predicate})'
+  '_.once':
+    'prefix': '_once'
+    'body': '_.once(${1:func})'
+  '_.overArgs':
+    'prefix': '_overa'
+    'body': '_.overArgs(${1:func}, ${2:transforms})'
+  '_.partial':
+    'prefix': '_pa'
+    'body': '_.partial(${1:func}, ${2:partials})'
+  '_.partialRight':
+    'prefix': '_par'
+    'body': '_.partialRight(${1:func}, ${2:partials})'
+  '_.rearg':
+    'prefix': '_rearg'
+    'body': '_.rearg(${1:func}, ${2:indexes})'
+  '_.rest':
+    'prefix': '_rest'
+    'body': '_.rest(${1:func})'
+  '_.spread':
+    'prefix': '_spr'
+    'body': '_.spread(${1:func})'
+  '_.throttle':
+    'prefix': '_thro'
+    'body': '_.throttle(${1:func}, ${2:wait})'
+  '_.unary':
+    'prefix': '_unary'
+    'body': '_.unary(${1:func})'
+  '_.wrap':
+    'prefix': '_wrap'
+    'body': '_.wrap(${1:value}, ${2:wrapper})'
+
+'.source.coffee':
+  '_.after':
+    'prefix': '_after'
+    'body': '_.after ${1:n}, ${2:func}'
+  '_.ary':
+    'prefix': '_ary'
+    'body': '_.ary ${1:func}, ${2:n}'
+  '_.before':
+    'prefix': '_before'
+    'body': '_.before ${1:n}, ${2:func}'
+  '_.bind':
+    'prefix': '_b'
+    'body': '_.bind ${1:func}, ${2:thisArg}'
+  '_.bindKey':
+    'prefix': '_bk'
+    'body': '_.bindKey ${1:object}, ${2:key}, ${3:partials}'
+  '_.curry':
+    'prefix': '_cur'
+    'body': '_.curry ${1:func}'
+  '_.curryRight':
+    'prefix': '_curr'
+    'body': '_.curryRight ${1:func}'
+  '_.debounce':
+    'prefix': '_deb'
+    'body': '_.debounce ${1:func}, ${2:wait}'
+  '_.defer':
+    'prefix': '_defer'
+    'body': '_.defer ${1:func}, ${2:args}'
+  '_.delay':
+    'prefix': '_delay'
+    'body': '_.delay ${1:func}, ${2:wait}, ${3:args}'
+  '_.flip':
+    'prefix': '_flip'
+    'body': '_.flip ${1:func}'
+  '_.memoize':
+    'prefix': '_memo'
+    'body': '_.memoize ${1:func}'
+  '_.negate':
+    'prefix': '_neg'
+    'body': '_.negate ${1:predicate}'
+  '_.once':
+    'prefix': '_once'
+    'body': '_.once ${1:func}'
+  '_.overArgs':
+    'prefix': '_overa'
+    'body': '_.overArgs ${1:func}, ${2:transforms}'
+  '_.partial':
+    'prefix': '_pa'
+    'body': '_.partial ${1:func}, ${2:partials}'
+  '_.partialRight':
+    'prefix': '_par'
+    'body': '_.partialRight ${1:func}, ${2:partials}'
+  '_.rearg':
+    'prefix': '_rearg'
+    'body': '_.rearg ${1:func}, ${2:indexes}'
+  '_.rest':
+    'prefix': '_rest'
+    'body': '_.rest ${1:func}'
+  '_.spread':
+    'prefix': '_spr'
+    'body': '_.spread ${1:func}'
+  '_.throttle':
+    'prefix': '_thro'
+    'body': '_.throttle ${1:func}, ${2:wait}'
+  '_.unary':
+    'prefix': '_unary'
+    'body': '_.unary ${1:func}'
+  '_.wrap':
+    'prefix': '_wrap'
+    'body': '_.wrap ${1:value}, ${2:wrapper}'

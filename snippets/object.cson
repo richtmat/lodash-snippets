@@ -1,0 +1,249 @@
+'.source.js, .source.ts':
+  '_.assign':
+    'prefix': '_as'
+    'body': '_.assign(${1:object}, ${2:sources})'
+  '_.assignIn':
+    'prefix': '_asi'
+    'body': '_.assignIn(${1:object}, ${2:sources})'
+  '_.assignInWith':
+    'prefix': '_asiw'
+    'body': '_.assignInWith(${1:object}, ${2:sources}, ${3:customizer})'
+  '_.assignWith':
+    'prefix': '_asw'
+    'body': '_.assignWith(${1:object}, ${2:sources}, ${3:customizer})'
+  '_.at':
+    'prefix': '_at'
+    'body': '_.at(${1:object}, ${2:paths})'
+  '_.create':
+    'prefix': '_cre'
+    'body': '_.create(${1:prototype}, ${2:properties})'
+  '_.defaults':
+    'prefix': '_def'
+    'body': '_.defaults(${1:object}, ${2:sources})'
+  '_.defaultsDeep':
+    'prefix': '_defd'
+    'body': '_.dedefaultsDeepfaults(${1:object}, ${2:sources})'
+  '_.findKey':
+    'prefix': '_findKey'
+    'body': '_.findKey(${1:object}, ${2:callback})'
+  '_.findLastKey':
+    'prefix': '_findLastKey'
+    'body': '_.findLastKey(${1:object}, ${2:callback})'
+  '_.forIn':
+    'prefix': '_forIn'
+    'body': '_.forIn(${1:object}, ${2:callback})'
+  '_.forInRight':
+    'prefix': '_forInRight'
+    'body': '_.forinRight(${1:object}, ${2:callback})'
+  '_.forOwn':
+    'prefix': '_forOwn'
+    'body': '_.forOwn(${1:object}, ${2:callback})'
+  '_.forOwnRight':
+    'prefix': '_forOwnRight'
+    'body': '_.forOwnRight(${1:object}, ${2:callback})'
+  '_.functions':
+    'prefix': '_fn'
+    'body': '_.functions(${1:object})'
+  '_.get':
+    'prefix': '_get'
+    'body': '_.get(${1:object}, ${2:path})'
+  '_.has':
+    'prefix': '_has'
+    'body': '_.has(${1:object}, ${2:path})'
+  '_.invert':
+    'prefix': '_invr'
+    'body': '_.invert(${1:object})'
+  '_.invertBy':
+    'prefix': '_invrb'
+    'body': '_.invertBy(${1:object}, ${2:iteratee})'
+  '_.invoke':
+    'prefix': '_invo'
+    'body': '_.invoke(${1:object}, ${2:path})'
+  '_.keys':
+    'prefix': '_keys'
+    'body': '_.keys(${1:object})'
+  '_.keysIn':
+    'prefix': '_keysin'
+    'body': '_.keysIn(${1:object})'
+  '_.mapKeys':
+    'prefix': '_mapkey'
+    'body': '_.mapKeys(${1:object}, ${2:iteratee})'
+  '_.mapValues':
+    'prefix': '_mapval'
+    'body': '_.mapValues(${1:object}, ${2:iteratee})'
+  '_.merge':
+    'prefix': '_merge'
+    'body': '_.merge(${1:object}, ${2:sources})'
+  '_.mergeWith':
+    'prefix': '_mergew'
+    'body': '_.mergeWith(${1:object}, ${2:sources}, ${3:customizer})'
+  '_.omit':
+    'prefix': '_omit'
+    'body': '_.omit(${1:object}, ${2:props})'
+  '_.omitBy':
+    'prefix': '_omitb'
+    'body': '_.omitBy(${1:object}, ${2:predicate})'
+  '_.pick':
+    'prefix': '_pick'
+    'body': '_.pick(${1:object}, ${2:props})'
+  '_.pickBy':
+    'prefix': '_pickb'
+    'body': '_.pickBy(${1:object}, ${2:predicate})'
+  '_.result':
+    'prefix': '_result'
+    'body': '_.result(${1:object}, ${2:path})'
+  '_.set':
+    'prefix': '_set'
+    'body': '_.set(${1:object}, ${2:path}, ${3:value})'
+  '_.setWith':
+    'prefix': '_setw'
+    'body': '_.setWith(${1:object}, ${2:path}, ${3:value}, ${4:customizer})'
+  '_.toPairs':
+    'prefix': '_topa'
+    'body': '_.toPairs(${1:object})'
+  '_.toPairsIn':
+    'prefix': '_topain'
+    'body': '_.toPairsIn(${1:object})'
+  '_.transform':
+    'prefix': '_trans'
+    'body': '_.transform(${1:object}, ${2:iteratee})'
+  '_.unset':
+    'prefix': '_unset'
+    'body': '_.unset(${1:object}, ${2:path})'
+  '_.update':
+    'prefix': '_upd'
+    'body': '_.update(${1:object}, ${2:path}, ${3:updater})'
+  '_.updateWith':
+    'prefix': '_updw'
+    'body': '_.updateWith(${1:object}, ${2:path}, ${3:updater})'
+  '_.values':
+    'prefix': '_val'
+    'body': '_.values(${1:object})'
+  '_.valuesIn':
+    'prefix': '_valin'
+    'body': '_.valuesIn(${1:object})'
+
+'.source.coffee':
+  '_.assign':
+    'prefix': '_as'
+    'body': '_.assign ${1:object}, ${2:sources}'
+  '_.assignIn':
+    'prefix': '_asi'
+    'body': '_.assignIn ${1:object}, ${2:sources}'
+  '_.assignInWith':
+    'prefix': '_asiw'
+    'body': '_.assignInWith ${1:object}, ${2:sources}, ${3:customizer}'
+  '_.assignWith':
+    'prefix': '_asw'
+    'body': '_.assignWith ${1:object}, ${2:sources}, ${3:customizer}'
+  '_.at':
+    'prefix': '_at'
+    'body': '_.at ${1:object}, ${2:paths}'
+  '_.create':
+    'prefix': '_cre'
+    'body': '_.create ${1:prototype}, ${2:properties}'
+  '_.defaults':
+    'prefix': '_def'
+    'body': '_.defaults ${1:object}, ${2:sources}'
+  '_.defaultsDeep':
+    'prefix': '_defd'
+    'body': '_.dedefaultsDeepfaults ${1:object}, ${2:sources}'
+  '_.findKey':
+    'prefix': '_findKey'
+    'body': '_.findKey ${1:object}, ${2:callback}'
+  '_.findLastKey':
+    'prefix': '_findLastKey'
+    'body': '_.findLastKey ${1:object}, ${2:callback}'
+  '_.forIn':
+    'prefix': '_forIn'
+    'body': '_.forIn ${1:object}, ${2:callback}'
+  '_.forInRight':
+    'prefix': '_forInRight'
+    'body': '_.forinRight ${1:object}, ${2:callback}'
+  '_.forOwn':
+    'prefix': '_forOwn'
+    'body': '_.forOwn ${1:object}, ${2:callback}'
+  '_.forOwnRight':
+    'prefix': '_forOwnRight'
+    'body': '_.forOwnRight ${1:object}, ${2:callback}'
+  '_.functions':
+    'prefix': '_fn'
+    'body': '_.functions ${1:object}'
+  '_.get':
+    'prefix': '_get'
+    'body': '_.get ${1:object}, ${2:path}'
+  '_.has':
+    'prefix': '_has'
+    'body': '_.has ${1:object}, ${2:path}'
+  '_.invert':
+    'prefix': '_invr'
+    'body': '_.invert ${1:object}'
+  '_.invertBy':
+    'prefix': '_invrb'
+    'body': '_.invertBy ${1:object}, ${2:iteratee}'
+  '_.invoke':
+    'prefix': '_invo'
+    'body': '_.invoke ${1:object}, ${2:path}'
+  '_.keys':
+    'prefix': '_keys'
+    'body': '_.keys ${1:object}'
+  '_.keysIn':
+    'prefix': '_keysin'
+    'body': '_.keysIn ${1:object}'
+  '_.mapKeys':
+    'prefix': '_mapkey'
+    'body': '_.mapKeys ${1:object}, ${2:iteratee}'
+  '_.mapValues':
+    'prefix': '_mapval'
+    'body': '_.mapValues ${1:object}, ${2:iteratee}'
+  '_.merge':
+    'prefix': '_merge'
+    'body': '_.merge ${1:object}, ${2:sources}'
+  '_.mergeWith':
+    'prefix': '_mergew'
+    'body': '_.mergeWith ${1:object}, ${2:sources}, ${3:customizer}'
+  '_.omit':
+    'prefix': '_omit'
+    'body': '_.omit ${1:object}, ${2:props}'
+  '_.omitBy':
+    'prefix': '_omitb'
+    'body': '_.omitBy ${1:object}, ${2:predicate}'
+  '_.pick':
+    'prefix': '_pick'
+    'body': '_.pick ${1:object}, ${2:props}'
+  '_.pickBy':
+    'prefix': '_pickb'
+    'body': '_.pickBy ${1:object}, ${2:predicate}'
+  '_.result':
+    'prefix': '_result'
+    'body': '_.result ${1:object}, ${2:path}'
+  '_.set':
+    'prefix': '_set'
+    'body': '_.set ${1:object}, ${2:path}, ${3:value}'
+  '_.setWith':
+    'prefix': '_setw'
+    'body': '_.setWith ${1:object}, ${2:path}, ${3:value}, ${4:customizer}'
+  '_.toPairs':
+    'prefix': '_topa'
+    'body': '_.toPairs ${1:object}'
+  '_.toPairsIn':
+    'prefix': '_topain'
+    'body': '_.toPairsIn ${1:object}'
+  '_.transform':
+    'prefix': '_trans'
+    'body': '_.transform ${1:object}, ${2:iteratee}'
+  '_.unset':
+    'prefix': '_unset'
+    'body': '_.unset ${1:object}, ${2:path}'
+  '_.update':
+    'prefix': '_upd'
+    'body': '_.update ${1:object}, ${2:path}, ${3:updater}'
+  '_.updateWith':
+    'prefix': '_updw'
+    'body': '_.updateWith ${1:object}, ${2:path}, ${3:updater}'
+  '_.values':
+    'prefix': '_val'
+    'body': '_.values ${1:object}'
+  '_.valuesIn':
+    'prefix': '_valin'
+    'body': '_.valuesIn ${1:object}'

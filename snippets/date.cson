@@ -1,0 +1,9 @@
+'.source.js, .source.ts':
+  '_.now':
+    'prefix': '_now'
+    'body': '_.now()'
+
+'.source.coffee':
+  '_.now':
+    'prefix': '_now'
+    'body': '_.now()'

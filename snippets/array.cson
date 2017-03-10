@@ -1,0 +1,375 @@
+'.source.js, .source.ts':
+  '_.chunk':
+    'prefix': '_chu'
+    'body': '_.chunk(${1:array})'
+  '_.compact':
+    'prefix': '_com'
+    'body': '_.compact(${1:array})'
+  '_.concat':
+    'prefix': '_con'
+    'body': '_.concat(${1:array}, ${2:values})'
+  '_.difference':
+    'prefix': '_diff'
+    'body': '_.difference(${1:array}, ${2:values})'
+  '_.differenceBy':
+    'prefix': '_diffb'
+    'body': '_.differenceBy(${1:array}, ${2:values})'
+  '_.differenceWith':
+    'prefix': '_diffw'
+    'body': '_.differenceWith(${1:array}, ${2:values}, ${3:comparator})'
+  '_.drop':
+    'prefix': '_drop'
+    'body': '_.drop(${1:array})'
+  '_.dropRight':
+    'prefix': '_dropr'
+    'body': '_.dropRight(${1:array})'
+  '_.dropRightWhile':
+    'prefix': '_droprw'
+    'body': '_.dropRightWhile(${1:array}, ${2:predicate})'
+  '_.dropWhile':
+    'prefix': '_dropw'
+    'body': '_.dropWhile(${1:array}, ${2:predicate})'
+  '_.fill':
+    'prefix': '_fill'
+    'body': '_.fill(${1:array}, {2:value})'
+  '_.findIndex':
+    'prefix': '_fi'
+    'body': '_.findIndex(${1:array}, ${2:predicate})'
+  '_.findLastIndex':
+    'prefix': '_fli'
+    'body': '_.findLastIndex(${1:array}, ${2:predicate})'
+  '_.flatten':
+    'prefix': '_flat'
+    'body': '_.flatten(${1:array})'
+  '_.flattenDeep':
+    'prefix': '_flatd'
+    'body': '_.flattenDeep(${1:array})'
+  '_.flattenDepth':
+    'prefix': '_flatdep'
+    'body': '_.flattenDepth(${1:array})'
+  '_.fromPairs':
+    'prefix': '_fromp'
+    'body': '_.fromPairs(${1:pairs})'
+  '_.head':
+    'prefix': '_head'
+    'body': '_.head(${1:array})'
+  '_.indexOf':
+    'prefix': '_io'
+    'body': '_.indexOf(${1:array}, ${2:value})'
+  '_.initial':
+    'prefix': '_init'
+    'body': '_.initial(${1:array})'
+  '_.intersection':
+    'prefix': '_int'
+    'body': '_.intersection(${1:arrays})'
+  '_.intersectionBy':
+    'prefix': '_intb'
+    'body': '_.intersectionBy(${1:arrays}, ${2:iteratee})'
+  '_.intersectionWith':
+    'prefix': '_intw'
+    'body': '_.intersectionWith(${1:arrays})'
+  '_.join':
+    'prefix': '_join'
+    'body': '_.join(${1:array}, ${2:separator})'
+  '_.last':
+    'prefix': '_last'
+    'body': '_.last(${1:array})'
+  '_.lastIndexOf':
+    'prefix': '_lastio'
+    'body': '_.lastIndexOf(${1:array}, ${2:value})'
+  '_.nth':
+    'prefix': '_nth'
+    'body': '_.nth(${1:array})'
+  '_.pull':
+    'prefix': '_pull'
+    'body': '_.pull(${1:array}, ${2:values})'
+  '_.pullAll':
+    'prefix': '_pullal'
+    'body': '_.pullAll(${1:array}, ${2:values})'
+  '_.pullAllBy':
+    'prefix': '_pullalb'
+    'body': '_.pullAllBy(${1:array}, ${2:values}, ${3:iteratee})'
+  '_.pullAllWith':
+    'prefix': '_pullalw'
+    'body': '_.pullAllWith(${1:array}, ${2:values}, ${3: comparator})'
+  '_.pullAt':
+    'prefix': '_pullat'
+    'body': '_.pullAt(${1:array}, ${2:indexes})'
+  '_.remove':
+    'prefix': '_rem'
+    'body': '_.remove(${1:array}, {$2:predicate})'
+  '_.reverse':
+    'prefix': '_rev'
+    'body': '_.reverse(${1:array})'
+  '_.slice':
+    'prefix': '_slice'
+    'body': '_.slice(${1:array}, ${2:start})'
+  '_.sortedIndex':
+    'prefix': '_si'
+    'body': '_.sortedIndex(${1:array}, ${2:value})'
+  '_.sortedIndexBy':
+    'prefix': '_sib'
+    'body': '_.sortedIndexBy(${1:array}, ${2:value}, ${3:iteratee})'
+  '_.sortedIndexOf':
+    'prefix': '_sio'
+    'body': '_.sortedIndexOf(${1:array}, ${2:value})'
+  '_.sortedLastIndex':
+    'prefix': '_sli'
+    'body': '_.sortedLastIndex(${1:array}, ${2:value})'
+  '_.sortedLastIndexBy':
+    'prefix': '_slib'
+    'body': '_.sortedLastIndexBy(${1:array}, ${2:value}, ${3:iteratee})'
+  '_.sortedLastIndexOf':
+    'prefix': '_slio'
+    'body': '_.sortedLastIndexOf(${1:array}, ${2:value})'
+  '_.tail':
+    'prefix': '_tail'
+    'body': '_.tail(${1:array})'
+  '_.take':
+    'prefix': '_take'
+    'body': '_.take(${1:array})'
+  '_.takeRight':
+    'prefix': '_taker'
+    'body': '_.takeRight(${1:array})'
+  '_.takeRightWhile':
+    'prefix': '_takerw'
+    'body': '_.takeRightWhile(${1:array}, ${2:predicate})'
+  '_.takeWhile':
+    'prefix': '_takew'
+    'body': '_.takeWhile(${1:array}, ${2:predicate})'
+  '_.union':
+    'prefix': '_uni'
+    'body': '_.union(${1:arrays})'
+  '_.unionBy':
+    'prefix': '_unib'
+    'body': '_.unionBy(${1:arrays}, ${2:iteratee})'
+  '_.unionWith':
+    'prefix': '_uniw'
+    'body': '_.unionWith(${1:arrays})'
+  '_.uniq':
+    'prefix': '_uniq'
+    'body': '_.uniq(${1:array})'
+  '_.uniqBy':
+    'prefix': '_uniqb'
+    'body': '_.uniqBy(${1:array}, ${2:iteratee})'
+  '_.uniqWith':
+    'prefix': '_uniqw'
+    'body': '_.uniqWith(${1:array}, ${2:comparator})'
+  '_.unzip':
+    'prefix': '_uz'
+    'body': '_.unzip(${1:array})'
+  '_.unzipWith':
+    'prefix': '_uzw'
+    'body': '_.unzipWith(${1:array}, ${2:iteratee})'
+  '_.without':
+    'prefix': '_wo'
+    'body': '_.without(${1:array}, ${2:values})'
+  '_.xor':
+    'prefix': '_xor'
+    'body': '_.xor(${1:arrays})'
+  '_.xorBy':
+    'prefix': '_xorb'
+    'body': '_.xorBy(${1:arrays}, ${2:iteratee})'
+  '_.xorWith':
+    'prefix': '_xorw'
+    'body': '_.xorWith(${1:arrays})'
+  '_.zip':
+    'prefix': '_zip'
+    'body': '_.zip(${1:arrays})'
+  '_.zipObject':
+    'prefix': '_zipo'
+    'body': '_.zipObject(${1:props}, ${2:values})'
+  '_.zipObjectDeep':
+    'prefix': '_zipod'
+    'body': '_.zipObjectDeep(${1:props}, ${2:values})'
+  '_.zipWith':
+    'prefix': '_zipw'
+    'body': '_.zipWith(${1:arrays}, ${2:iteratee})'
+
+'.source.coffee':
+  '_.chunk':
+    'prefix': '_chu'
+    'body': '_.chunk ${1:array}'
+  '_.compact':
+    'prefix': '_com'
+    'body': '_.compact ${1:array}'
+  '_.concat':
+    'prefix': '_con'
+    'body': '_.concat ${1:array}, ${2:values}'
+  '_.difference':
+    'prefix': '_diff'
+    'body': '_.difference ${1:array}, ${2:values}'
+  '_.differenceBy':
+    'prefix': '_diffb'
+    'body': '_.differenceBy ${1:array}, ${2:values}'
+  '_.differenceWith':
+    'prefix': '_diffw'
+    'body': '_.differenceWith ${1:array}, ${2:values}, ${3:comparator}'
+  '_.drop':
+    'prefix': '_drop'
+    'body': '_.drop ${1:array}'
+  '_.dropRight':
+    'prefix': '_dropr'
+    'body': '_.dropRight ${1:array}'
+  '_.dropRightWhile':
+    'prefix': '_droprw'
+    'body': '_.dropRightWhile ${1:array}, ${2:predicate}'
+  '_.dropWhile':
+    'prefix': '_dropw'
+    'body': '_.dropWhile ${1:array}, ${2:predicate}'
+  '_.fill':
+    'prefix': '_fill'
+    'body': '_.fill ${1:array}, {2:value}'
+  '_.findIndex':
+    'prefix': '_fi'
+    'body': '_.findIndex ${1:array}, ${2:predicate}'
+  '_.findLastIndex':
+    'prefix': '_fli'
+    'body': '_.findLastIndex ${1:array}, ${2:predicate}'
+  '_.flatten':
+    'prefix': '_flat'
+    'body': '_.flatten ${1:array}'
+  '_.flattenDeep':
+    'prefix': '_flatd'
+    'body': '_.flattenDeep ${1:array}'
+  '_.flattenDepth':
+    'prefix': '_flatdep'
+    'body': '_.flattenDepth ${1:array}'
+  '_.fromPairs':
+    'prefix': '_fromp'
+    'body': '_.fromPairs ${1:pairs}'
+  '_.head':
+    'prefix': '_head'
+    'body': '_.head ${1:array}'
+  '_.indexOf':
+    'prefix': '_io'
+    'body': '_.indexOf ${1:array}, ${2:value}'
+  '_.initial':
+    'prefix': '_init'
+    'body': '_.initial ${1:array}'
+  '_.intersection':
+    'prefix': '_int'
+    'body': '_.intersection ${1:arrays}'
+  '_.intersectionBy':
+    'prefix': '_intb'
+    'body': '_.intersectionBy ${1:arrays}, ${2:iteratee}'
+  '_.intersectionWith':
+    'prefix': '_intw'
+    'body': '_.intersectionWith ${1:arrays}'
+  '_.join':
+    'prefix': '_join'
+    'body': '_.join ${1:array}, ${2:separator}'
+  '_.last':
+    'prefix': '_last'
+    'body': '_.last ${1:array}'
+  '_.lastIndexOf':
+    'prefix': '_lastio'
+    'body': '_.lastIndexOf ${1:array}, ${2:value}'
+  '_.nth':
+    'prefix': '_nth'
+    'body': '_.nth ${1:array}'
+  '_.pull':
+    'prefix': '_pull'
+    'body': '_.pull ${1:array}, ${2:values}'
+  '_.pullAll':
+    'prefix': '_pullal'
+    'body': '_.pullAll ${1:array}, ${2:values}'
+  '_.pullAllBy':
+    'prefix': '_pullalb'
+    'body': '_.pullAllBy ${1:array}, ${2:values}, ${3:iteratee}'
+  '_.pullAllWith':
+    'prefix': '_pullalw'
+    'body': '_.pullAllWith ${1:array}, ${2:values}, ${3: comparator}'
+  '_.pullAt':
+    'prefix': '_pullat'
+    'body': '_.pullAt ${1:array}, ${2:indexes}'
+  '_.remove':
+    'prefix': '_rem'
+    'body': '_.remove ${1:array}, {$2:predicate}'
+  '_.reverse':
+    'prefix': '_rev'
+    'body': '_.reverse ${1:array}'
+  '_.slice':
+    'prefix': '_slice'
+    'body': '_.slice ${1:array}, ${2:start}'
+  '_.sortedIndex':
+    'prefix': '_si'
+    'body': '_.sortedIndex ${1:array}, ${2:value}'
+  '_.sortedIndexBy':
+    'prefix': '_sib'
+    'body': '_.sortedIndexBy ${1:array}, ${2:value}, ${3:iteratee}'
+  '_.sortedIndexOf':
+    'prefix': '_sio'
+    'body': '_.sortedIndexOf ${1:array}, ${2:value}'
+  '_.sortedLastIndex':
+    'prefix': '_sli'
+    'body': '_.sortedLastIndex ${1:array}, ${2:value}'
+  '_.sortedLastIndexBy':
+    'prefix': '_slib'
+    'body': '_.sortedLastIndexBy ${1:array}, ${2:value}, ${3:iteratee}'
+  '_.sortedLastIndexOf':
+    'prefix': '_slio'
+    'body': '_.sortedLastIndexOf ${1:array}, ${2:value}'
+  '_.tail':
+    'prefix': '_tail'
+    'body': '_.tail ${1:array}'
+  '_.take':
+    'prefix': '_take'
+    'body': '_.take ${1:array}'
+  '_.takeRight':
+    'prefix': '_taker'
+    'body': '_.takeRight ${1:array}'
+  '_.takeRightWhile':
+    'prefix': '_takerw'
+    'body': '_.takeRightWhile ${1:array}, ${2:predicate}'
+  '_.takeWhile':
+    'prefix': '_takew'
+    'body': '_.takeWhile ${1:array}, ${2:predicate}'
+  '_.union':
+    'prefix': '_uni'
+    'body': '_.union ${1:arrays}'
+  '_.unionBy':
+    'prefix': '_unib'
+    'body': '_.unionBy ${1:arrays}, ${2:iteratee}'
+  '_.unionWith':
+    'prefix': '_uniw'
+    'body': '_.unionWith ${1:arrays}'
+  '_.uniq':
+    'prefix': '_uniq'
+    'body': '_.uniq ${1:array}'
+  '_.uniqBy':
+    'prefix': '_uniqb'
+    'body': '_.uniqBy ${1:array}, ${2:iteratee}'
+  '_.uniqWith':
+    'prefix': '_uniqw'
+    'body': '_.uniqWith ${1:array}, ${2:comparator}'
+  '_.unzip':
+    'prefix': '_uz'
+    'body': '_.unzip ${1:array}'
+  '_.unzipWith':
+    'prefix': '_uzw'
+    'body': '_.unzipWith ${1:array}, ${2:iteratee}'
+  '_.without':
+    'prefix': '_wo'
+    'body': '_.without ${1:array}, ${2:values}'
+  '_.xor':
+    'prefix': '_xor'
+    'body': '_.xor ${1:arrays}'
+  '_.xorBy':
+    'prefix': '_xorb'
+    'body': '_.xorBy ${1:arrays}, ${2:iteratee}'
+  '_.xorWith':
+    'prefix': '_xorw'
+    'body': '_.xorWith ${1:arrays}'
+  '_.zip':
+    'prefix': '_zip'
+    'body': '_.zip ${1:arrays}'
+  '_.zipObject':
+    'prefix': '_zipo'
+    'body': '_.zipObject ${1:props}, ${2:values}'
+  '_.zipObjectDeep':
+    'prefix': '_zipod'
+    'body': '_.zipObjectDeep ${1:props}, ${2:values}'
+  '_.zipWith':
+    'prefix': '_zipw'
+    'body': '_.zipWith ${1:arrays}, ${2:iteratee}'

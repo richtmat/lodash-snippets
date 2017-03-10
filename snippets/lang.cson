@@ -1,0 +1,333 @@
+'.source.js, .source.ts':
+  '_.castArray':
+    'prefix': '_castar'
+    'body': '_.castArray(${1:value})'
+  '_.clone':
+    'prefix': '_clone'
+    'body': '_.clone(${1:value})'
+  '_.cloneDeep':
+    'prefix': '_cloned'
+    'body': '_.cloneDeep(${1:value})'
+  '_.cloneDeepWith':
+    'prefix': '_clonedw'
+    'body': '_.cloneDeepWith(${1:value}, ${2:customizer})'
+  '_.conformsTo':
+    'prefix': '_conf'
+    'body': '_.conformsTo(${1:object}, ${2:source})'
+  '_.eq':
+    'prefix': '_eq'
+    'body': '_.eq(${1:value}, ${2:other})'
+  '_.gt':
+    'prefix': '_gt'
+    'body': '_.gt(${1:value}, ${2:other})'
+  '_.gte':
+    'prefix': '_gte'
+    'body': '_.gte(${1:value}, ${2:other})'
+  '_.isArguments':
+    'prefix': '_isarg'
+    'body': '_.isArguments(${1:value})'
+  '_.isArray':
+    'prefix': '_isarr'
+    'body': '_.isArray(${1:value})'
+  '_.isArrayBuffer':
+    'prefix': '_isarrb'
+    'body': '_.isArrayBuffer(${1:value})'
+  '_.isArrayLike':
+    'prefix': '_isarrl'
+    'body': '_.isArrayLike(${1:value})'
+  '_.isArrayLikeObject':
+    'prefix': '_isarrlo'
+    'body': '_.isArrayLikeObject(${1:value})'
+  '_.isBoolean':
+    'prefix': '_isbool'
+    'body': '_.isBoolean(${1:value})'
+  '_.isBuffer':
+    'prefix': '_isbuff'
+    'body': '_.isBuffer(${1:value})'
+  '_.isDate':
+    'prefix': '_isdate'
+    'body': '_.isDate(${1:value})'
+  '_.isElement':
+    'prefix': '_iselem'
+    'body': '_.isElement(${1:value})'
+  '_.isEmpty':
+    'prefix': '_isempt'
+    'body': '_.isEmpty(${1:value})'
+  '_.isEqual':
+    'prefix': '_iseq'
+    'body': '_.isEqual(${1:value}, ${2:other})'
+  '_.isEqualWith':
+    'prefix': '_iseqw'
+    'body': '_.isEqualWith(${1:value}, ${2:other}, ${3:customizer})'
+  '_.isError':
+    'prefix': '_iserr'
+    'body': '_.isError(${1:value})'
+  '_.isFinite':
+    'prefix': '_isfin'
+    'body': '_.isFinite(${1:value})'
+  '_.isFunction':
+    'prefix': '_isfunc'
+    'body': '_.isFunction(${1:value})'
+  '_.isInteger':
+    'prefix': '_isint'
+    'body': '_.isInteger(${1:value})'
+  '_.isLength':
+    'prefix': '_islen'
+    'body': '_.isLength(${1:value})'
+  '_.isMap':
+    'prefix': '_ismap'
+    'body': '_.isMap(${1:value})'
+  '_.isMatch':
+    'prefix': '_ismat'
+    'body': '_.isMatch(${1:value}, ${2:source})'
+  '_.isMatchWith':
+    'prefix': '_ismatw'
+    'body': '_.isMatchWith(${1:value}, ${2:source}, ${3:customizer})'
+  '_.isNaN':
+    'prefix': '_isnan'
+    'body': '_.isNaN(${1:value})'
+  '_.isNative':
+    'prefix': '_isnat'
+    'body': '_.isNative(${1:value})'
+  '_.isNil':
+    'prefix': '_isnil'
+    'body': '_.isNil(${1:value})'
+  '_.isNull':
+    'prefix': '_isnull'
+    'body': '_.isNull(${1:value})'
+  '_.isNumber':
+    'prefix': '_isnum'
+    'body': '_.isNumber(${1:value})'
+  '_.isObject':
+    'prefix': '_isobj'
+    'body': '_.isObject(${1:value})'
+  '_.isObjectLike':
+    'prefix': '_isobjl'
+    'body': '_.isObjectLike(${1:value})'
+  '_.isPlainObject':
+    'prefix': '_isplobj'
+    'body': '_.isPlainObject(${1:value})'
+  '_.isRegExp':
+    'prefix': '_isregex'
+    'body': '_.isRegExp(${1:value})'
+  '_.isSafeInteger':
+    'prefix': '_issafint'
+    'body': '_.isSafeInteger(${1:value})'
+  '_.isSet':
+    'prefix': '_isset'
+    'body': '_.isSet(${1:value})'
+  '_.isString':
+    'prefix': '_isstr'
+    'body': '_.isString(${1:value})'
+  '_.isSymbol':
+    'prefix': '_issym'
+    'body': '_.isSymbol(${1:value})'
+  '_.isTypedArray':
+    'prefix': '_istyparr'
+    'body': '_.isTypedArray(${1:value})'
+  '_.isUndefined':
+    'prefix': '_isund'
+    'body': '_.isUndefined(${1:value})'
+  '_.isWeakMap':
+    'prefix': '_isweakm'
+    'body': '_.isWeakMap(${1:value})'
+  '_.isWeakSet':
+    'prefix': '_isweaks'
+    'body': '_.isWeakSet(${1:value})'
+  '_.lt':
+    'prefix': '_lt'
+    'body': '_.lt(${1:value}, ${2:other})'
+  '_.lte':
+    'prefix': '_lte'
+    'body': '_.lte(${1:value}, ${2:other})'
+  '_.toArray':
+    'prefix': '_toarr'
+    'body': '_.toArray(${1:value})'
+  '_.toFinite':
+    'prefix': '_tofin'
+    'body': '_.toFinite(${1:value})'
+  '_.toInteger':
+    'prefix': '_toint'
+    'body': '_.toInteger(${1:value})'
+  '_.toLength':
+    'prefix': '_tolen'
+    'body': '_.toLength(${1:value})'
+  '_.toNumber':
+    'prefix': '_tonum'
+    'body': '_.toNumber(${1:value})'
+  '_.toPlainObject':
+    'prefix': '_toplobj'
+    'body': '_.toPlainObject(${1:value})'
+  '_.toSafeInteger':
+    'prefix': '_tosafint'
+    'body': '_.toSafeInteger(${1:value})'
+  '_.toString':
+    'prefix': '_tostr'
+    'body': '_.toString(${1:value})'
+
+'.source.coffee':
+  '_.castArray':
+    'prefix': '_castar'
+    'body': '_.castArray ${1:value}'
+  '_.clone':
+    'prefix': '_clone'
+    'body': '_.clone ${1:value}'
+  '_.cloneDeep':
+    'prefix': '_cloned'
+    'body': '_.cloneDeep ${1:value}'
+  '_.cloneDeepWith':
+    'prefix': '_clonedw'
+    'body': '_.cloneDeepWith ${1:value}, ${2:customizer}'
+  '_.conformsTo':
+    'prefix': '_conf'
+    'body': '_.conformsTo ${1:object}, ${2:source}'
+  '_.eq':
+    'prefix': '_eq'
+    'body': '_.eq ${1:value}, ${2:other}'
+  '_.gt':
+    'prefix': '_gt'
+    'body': '_.gt ${1:value}, ${2:other}'
+  '_.gte':
+    'prefix': '_gte'
+    'body': '_.gte ${1:value}, ${2:other}'
+  '_.isArguments':
+    'prefix': '_isarg'
+    'body': '_.isArguments ${1:value}'
+  '_.isArray':
+    'prefix': '_isarr'
+    'body': '_.isArray ${1:value}'
+  '_.isArrayBuffer':
+    'prefix': '_isarrb'
+    'body': '_.isArrayBuffer ${1:value}'
+  '_.isArrayLike':
+    'prefix': '_isarrl'
+    'body': '_.isArrayLike ${1:value}'
+  '_.isArrayLikeObject':
+    'prefix': '_isarrlo'
+    'body': '_.isArrayLikeObject ${1:value}'
+  '_.isBoolean':
+    'prefix': '_isbool'
+    'body': '_.isBoolean ${1:value}'
+  '_.isBuffer':
+    'prefix': '_isbuff'
+    'body': '_.isBuffer ${1:value}'
+  '_.isDate':
+    'prefix': '_isdate'
+    'body': '_.isDate ${1:value}'
+  '_.isElement':
+    'prefix': '_iselem'
+    'body': '_.isElement ${1:value}'
+  '_.isEmpty':
+    'prefix': '_isempt'
+    'body': '_.isEmpty ${1:value}'
+  '_.isEqual':
+    'prefix': '_iseq'
+    'body': '_.isEqual ${1:value}, ${2:other}'
+  '_.isEqualWith':
+    'prefix': '_iseqw'
+    'body': '_.isEqualWith ${1:value}, ${2:other}, ${3:customizer}'
+  '_.isError':
+    'prefix': '_iserr'
+    'body': '_.isError ${1:value}'
+  '_.isFinite':
+    'prefix': '_isfin'
+    'body': '_.isFinite ${1:value}'
+  '_.isFunction':
+    'prefix': '_isfunc'
+    'body': '_.isFunction ${1:value}'
+  '_.isInteger':
+    'prefix': '_isint'
+    'body': '_.isInteger ${1:value}'
+  '_.isLength':
+    'prefix': '_islen'
+    'body': '_.isLength ${1:value}'
+  '_.isMap':
+    'prefix': '_ismap'
+    'body': '_.isMap ${1:value}'
+  '_.isMatch':
+    'prefix': '_ismat'
+    'body': '_.isMatch ${1:value}, ${2:source}'
+  '_.isMatchWith':
+    'prefix': '_ismatw'
+    'body': '_.isMatchWith ${1:value}, ${2:source}, ${3:customizer}'
+  '_.isNaN':
+    'prefix': '_isnan'
+    'body': '_.isNaN ${1:value}'
+  '_.isNative':
+    'prefix': '_isnat'
+    'body': '_.isNative ${1:value}'
+  '_.isNil':
+    'prefix': '_isnil'
+    'body': '_.isNil ${1:value}'
+  '_.isNull':
+    'prefix': '_isnull'
+    'body': '_.isNull ${1:value}'
+  '_.isNumber':
+    'prefix': '_isnum'
+    'body': '_.isNumber ${1:value}'
+  '_.isObject':
+    'prefix': '_isobj'
+    'body': '_.isObject ${1:value}'
+  '_.isObjectLike':
+    'prefix': '_isobjl'
+    'body': '_.isObjectLike ${1:value}'
+  '_.isPlainObject':
+    'prefix': '_isplobj'
+    'body': '_.isPlainObject ${1:value}'
+  '_.isRegExp':
+    'prefix': '_isregex'
+    'body': '_.isRegExp ${1:value}'
+  '_.isSafeInteger':
+    'prefix': '_issafint'
+    'body': '_.isSafeInteger ${1:value}'
+  '_.isSet':
+    'prefix': '_isset'
+    'body': '_.isSet ${1:value}'
+  '_.isString':
+    'prefix': '_isstr'
+    'body': '_.isString ${1:value}'
+  '_.isSymbol':
+    'prefix': '_issym'
+    'body': '_.isSymbol ${1:value}'
+  '_.isTypedArray':
+    'prefix': '_istyparr'
+    'body': '_.isTypedArray ${1:value}'
+  '_.isUndefined':
+    'prefix': '_isund'
+    'body': '_.isUndefined ${1:value}'
+  '_.isWeakMap':
+    'prefix': '_isweakm'
+    'body': '_.isWeakMap ${1:value}'
+  '_.isWeakSet':
+    'prefix': '_isweaks'
+    'body': '_.isWeakSet ${1:value}'
+  '_.lt':
+    'prefix': '_lt'
+    'body': '_.lt ${1:value}, ${2:other}'
+  '_.lte':
+    'prefix': '_lte'
+    'body': '_.lte ${1:value}, ${2:other}'
+  '_.toArray':
+    'prefix': '_toarr'
+    'body': '_.toArray ${1:value}'
+  '_.toFinite':
+    'prefix': '_tofin'
+    'body': '_.toFinite ${1:value}'
+  '_.toInteger':
+    'prefix': '_toint'
+    'body': '_.toInteger ${1:value}'
+  '_.toLength':
+    'prefix': '_tolen'
+    'body': '_.toLength ${1:value}'
+  '_.toNumber':
+    'prefix': '_tonum'
+    'body': '_.toNumber ${1:value}'
+  '_.toPlainObject':
+    'prefix': '_toplobj'
+    'body': '_.toPlainObject ${1:value}'
+  '_.toSafeInteger':
+    'prefix': '_tosafint'
+    'body': '_.toSafeInteger ${1:value}'
+  '_.toString':
+    'prefix': '_tostr'
+    'body': '_.toString ${1:value}'
